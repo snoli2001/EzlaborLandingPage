@@ -1,0 +1,15 @@
+.navfont {
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #7146ED;
+}
+
+.banner {
+    background: url("images/banner.jpg");
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+}

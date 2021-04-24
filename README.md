@@ -1,7 +1,7 @@
 # EzlaborLandingPage
 Landing Page
 
-##Integrantes:
+## Integrantes:
 -  Andree Jhaire Liñan Ramirez
 - Sebastian Eduardo Noli Peña
 - Renzo Giuliano Ñaña Canturin

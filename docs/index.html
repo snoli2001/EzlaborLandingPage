@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta-->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+         <!--CSS -->
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700" rel="stylesheet">
+
+         <!--Google Fonts-->
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+         <!--Font Awesome-->
+
+         <script src="https://kit.fontawesome.com/76a970ed0b.js" crossorigin="anonymous"></script>
+
+    
+        <title>EZLabor - Plataforma de Freelancing</title>
+    </head>
+    <body>
+      <!--Barra de navegación-->
+
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand px-2 py-2" href="index.html">
+            <img src="images/logo.png" width="105" height="75" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="navbar-nav">
+            <a class="nav-link active text-uppercase px-5 py-2" href="#">Inicio</a>
+            <a class="nav-link text-uppercase px-5 py-2" href="#">Explorar</a>
+            <a class="nav-link text-uppercase px-5 py-2" href="#">Guías</a>
+          </div>
+          <div class="container-fluid">
+            <div class="d-flex justify-content-end">
+            <a href="index.html" class="btn btn-outline-secondary">Ingresar</a>
+            <a href="index.html" class="btn ms-2 btn-outline-primary">Registrarse</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!--Carousel--> 
+    <div id="EZCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#EZCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#EZCarousel" data-bs-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image:url(images/slide-1.jfif);"></div>
+          <div class="container carousel-content">
+            <h1 class="poppins-font-title">Encuentra Freelancers</h1>
+            <p class="poppins-font-body">Contamos con freelancers especializados en múltiples rubros. Sólo publica tu solicitud, recibe ofertas y decide cual se ajusta mejor.</p>
+            <a href="#" class="btn btn-lg btn-primary">Ver planes</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image:url(images/slide-2.jfif);"></div>
+          <div class="container carousel-content">
+            <h1 class="poppins-font-title">Explora trabajos</h1>
+            <p class="poppins-font-body">Explora múltiples solicitudes de trabajo que solicitan los empleadores. Elige el que más se adecúe a tu horario y que creas que pague mejor.</p>
+            <a href="#" class="btn btn-lg btn-primary">Ver planes</a>
+          </div>
+        </div>
+      </div>
+   </div>
+
+    <!--Content-->
+
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h1 class="p-4 poppins-font-subtitle">¿Necesitas apoyo?</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/post-a-job.svg" alt="post" class="img-fluid" width="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Solicita
+            </h1>
+            <p class="ubuntu-font-body">
+              Postea el trabajo que tienes que llevar a cabo y recibe propuestas competitivas de nuestros freelancers. ¡Así de simple!
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/choose-free.svg" alt="free" class="img-fluid" width="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Escoge
+            </h1>
+            <p class="ubuntu-font-body">
+              Lo que sea que necesites, siempre habrá un freelancer que lo hará con gusto, desde desarrollo web hasta diseño gráfico, desde trabajos de fotografía hasta grabación de escenas para un metraje (y muchas opciones más).
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/pay.svg" alt="pay" class="img-fluid" width="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Paga seguro
+            </h1>
+            <p class="ubuntu-font-body">
+              Contamos con medios para que el pago al freelancer elegido sea lo más seguro posible. EZLabor te permite pagar por distintos medios: tarjeta de crédito, PayPal, transferencia, etcétera.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-3">
+      <hr>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h1 class="p-4 poppins-font-subtitle">¿Por qué EZLabor?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/browse.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Explora portafolios
+            </h1>
+            <p class="ubuntu-font-body">
+              Encuentra al profesional al que le quieres confiar tu proyecto, explora los portafolios para poder encontrar al indicado
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/bids.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Mira ofertas
+            </h1>
+            <p class="ubuntu-font-body">
+              Recibe ofertas de nuestros freelancers en cuestión de segundos.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/chat.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Chat en vivo
+            </h1>
+            <p class="ubuntu-font-body">
+              Puedes abrir chat con tus freelancers para solicitarles actualizaciones en su progreso.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/quality.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Paga por calidad
+            </h1>
+            <p class="ubuntu-font-body">
+              Paga cuando estés 100% satisfecho con el trabajo entregado.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/track.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Fija plazos
+            </h1>
+            <p class="ubuntu-font-body">
+              Coloca un plazo para que el trabajo sea entregado, discutiéndolo con el freelancer para saber cuándo estará listo el proyecto.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="text-center">
+            <img src="images/support.svg" alt="browse" widht="75" height="75">
+            <h1 class="ubuntu-font-title">
+              Soporte 24/7
+            </h1>
+            <p class="ubuntu-font-body">
+              Estamos para ayudar y hacer de tu experiencia en EZLabor de la más intuitiva. Tenemos un servicio de soporte con personas reales las 24 horas del día, los 7 días de la semana.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Plans-->
+
+    <div class="container-fluid mt-3 plan-background">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h1 class="p-4 poppins-font-subtitle">Contamos con planes Premium para ti</h1>
+        </div>
+      </div>
+      <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">
+                                FREELANCER
+                            </h5>
+                            <h6 class="text-center pricing">
+                                GRATIS
+                            </h6>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <span>
+                                        Accede a una vasta bolsa de trabajo
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Postula a los proyectos que más te convenga
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Recibe los pagos de tus trabajos a donde más te acomode
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                              <a href="#" class="btn btn-primary">Regístrate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">
+                                FREELANCER PREMIUM
+                            </h5>
+                            <h6 class="text-center">
+                                <span class="pricing">5$</span>
+                                <span>/mes</span>
+                            </h6>
+                            <hr>
+                            <ul>
+                                 <li>
+                                    <span>
+                                        Accede a una vasta bolsa de trabajo
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Postula a los proyectos que más te convenga
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Recibe los pagos de tus trabajos a donde más te acomode
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                              <a href="#" class="btn btn-primary">Adquirir</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">
+                                EMPLOYER
+                            </h5>
+                            <h6 class="text-center pricing">
+                                GRATIS
+                            </h6>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <span>
+                                        Accede a un amplio repertorio de freelancers
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Chequea a detalle las ofertas que recibes
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Sigue el progreso de tu proyecto en tiempo real
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                              <a href="#" class="btn btn-primary">Regístrate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">
+                                EMPLOYER PREMIUM
+                            </h5>
+                            <h6 class="text-center">
+                                <span class="pricing">5$</span>
+                                <span>/mes</span>
+                            </h6>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <span>
+                                        Accede a un amplio repertorio de freelancers
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Chequea a detalle las ofertas que recibes
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        Sigue el progreso de tu proyecto en tiempo real
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                              <a href="#" class="btn btn-primary">Adquirir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white">
+      <div class="container">
+          <div class="row">
+              <ul class="col-4 list-unstyled">
+                  <li class="font-weight-bold text-uppercase">EZLabor</li>
+                  <li><a href="" class="text-reset">Sobre nosotros</a></li>
+                  <li><a href="" class="text-reset">Cómo funciona</a></li>
+                  <li><a href="" class="text-reset">Seguridad</a></li>
+                  <li><a href="" class="text-reset">Noticias</a></li>
+                  <li><a href="" class="text-reset">Changelog</a></li>
+              </ul>
+              <ul class="col-4 list-unstyled">
+                  <li class="font-weight-bold text-uppercase">Términos</li>
+                  <li><a href="" class="text-reset">Polítias de privacidad</a></li>
+                  <li><a href="" class="text-reset">Terminos y condiciones</a></li>
+                  <li><a href="" class="text-reset">Política de copyright</a></li>
+                  <li><a href="" class="text-reset">Código de conducta</a></li>
+              </ul>
+              <ul class="col-4 list-unstyled">
+                <li class="font-weight-bold text-uppercase">Redes sociales</li>
+                <li><a href="" class="text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a></li>
+                <li><a href="" class="text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a></li>
+                <li><a href="" class="text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a></li>
+                <li><a href="" class="text-reset">
+                  <i class="fab fa-linkedin-in"></i>
+                </a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <p>EZLabor. Todos los derechos reservados.</p>
+            </div>
+          </div>
+      </div>
+  </footer>
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
